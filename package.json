@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "wangyi_prj",
   "version": "1.0.0",
   "description": "A Vue.js project",
@@ -17,6 +18,12 @@
   "description": "A Vue.js project",
   "author": "liuxidejia <rh1756075103@163.com>",
 >>>>>>> osior
+=======
+  "name": "wangyi_file",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "feifei <1085003979@qq.com>",
+>>>>>>> feifei
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -27,6 +34,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "element-ui": "^2.13.0",
@@ -63,6 +71,20 @@
     "autoprefixer": "^7.1.2",
     "axios": "^0.19.0",
 >>>>>>> osior
+=======
+    "axios": "^0.19.0",
+    "delegates": "^1.0.0",
+    "element-ui": "^2.13.0",
+    "mint-ui": "^2.2.13",
+    "node-sass": "^4.13.0",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.2",
+    "wide-align": "^1.1.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+>>>>>>> feifei
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-jest": "^21.0.2",
@@ -84,10 +106,15 @@
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
+<<<<<<< HEAD
+=======
+    "http-proxy-middleware": "^0.20.0",
+>>>>>>> feifei
     "jest": "^22.0.4",
     "jest-serializer-vue": "^0.3.0",
     "nightwatch": "^0.9.12",
     "node-notifier": "^5.1.2",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -96,6 +123,8 @@
 =======
     "node-sass": "^4.13.0",
 >>>>>>> osior
+=======
+>>>>>>> feifei
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
@@ -105,6 +134,7 @@
     "rimraf": "^2.6.0",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "selenium-server": "^3.0.1",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
@@ -112,15 +142,22 @@
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
     "sass-loader": "^6.0.6",
     "selenium-server": "^3.0.1",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
     "style-loader": "^1.0.0",
 >>>>>>> osior
+=======
+    "style-loader": "^1.0.0",
+    "swiper": "^5.2.1",
+>>>>>>> feifei
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-jest": "^1.0.2",

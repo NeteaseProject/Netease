@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /*
  * @Author: osier
@@ -8,6 +9,15 @@
  * @Description: ..
  */
 >>>>>>> osior
+=======
+/*
+ * @Author: 菲菲呀
+ * @Date: 2019-11-26 09:31:07
+ * @LastEditors: 菲菲呀
+ * @LastEditTime: 2019-12-06 21:21:17
+ * @Description: 
+ */
+>>>>>>> feifei
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -20,6 +30,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+<<<<<<< HEAD
 <<<<<<< HEAD
     proxyTable: {},
 =======
@@ -37,6 +48,22 @@ module.exports = {
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+=======
+    proxyTable: {},
+      proxyTable: {
+        '/api': { //要替换的地址
+        target: 'http://localhost:3000'
+        , //替换成啥
+        changeOrigin: true,
+        pathRewrite: {
+        '^/api': '' //重写接口，去掉/api
+          }
+        }
+      },
+    // Various Dev Server settings
+    host: 'localhost', // can be overwritten by process.env.HOST
+    port: 8081, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+>>>>>>> feifei
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
@@ -65,8 +92,13 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
+<<<<<<< HEAD
     assetsPublicPath: '/',
 
+=======
+    assetsPublicPath: './',
+    
+>>>>>>> feifei
     /**
      * Source Maps
      */

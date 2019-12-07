@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # wangyi_prj
 =======
 # wangyiyanxuan
@@ -7,6 +8,9 @@
 =======
 # project_one
 >>>>>>> osior
+=======
+# wangyi_file
+>>>>>>> feifei
 
 > A Vue.js project
 

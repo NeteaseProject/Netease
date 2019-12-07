@@ -62,6 +62,16 @@
       "unicode_decimal": 58953
     },
     {
+<<<<<<< HEAD
+=======
+      "icon_id": "1114658",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+>>>>>>> feifei
       "icon_id": "1301128",
       "name": "返回顶部",
       "font_class": "fanhuidingbu",
@@ -92,9 +102,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "1806388",
       "name": "消息",
       "font_class": "xiaoxi2",
@@ -110,9 +123,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "1969194",
       "name": "购物车",
       "font_class": "gouwuche",
@@ -129,9 +145,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "2368612",
       "name": "返回",
       "font_class": "fanhui",
@@ -140,9 +159,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "2458163",
       "name": "语音",
       "font_class": "yuyin",
@@ -152,9 +174,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "2568897",
       "name": "返回",
       "font_class": "fanhui1",
@@ -163,9 +188,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "2742677",
       "name": "现金券",
       "font_class": "xianjinquan",
@@ -294,9 +322,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "6263278",
       "name": "消息",
       "font_class": "xiaoxi4",
@@ -312,9 +343,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "6288547",
       "name": "购物车",
       "font_class": "gouwuche2",
@@ -324,9 +358,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "6403722",
       "name": "消息",
       "font_class": "xiaoxi6",
@@ -335,9 +372,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "6446346",
       "name": "会员",
       "font_class": "tianchongxing-",
@@ -403,9 +443,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "7834439",
       "name": "消息",
       "font_class": "xiaoxi7",
@@ -421,9 +464,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "8233850",
       "name": "返回顶部",
       "font_class": "fanhuidingbu1",
@@ -480,6 +526,16 @@
       "unicode_decimal": 58907
     },
     {
+<<<<<<< HEAD
+=======
+      "icon_id": "9040850",
+      "name": "语音",
+      "font_class": "yuyin1",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+>>>>>>> feifei
       "icon_id": "9169315",
       "name": "全选",
       "font_class": "quanxuan1",
@@ -489,7 +545,10 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> feifei
       "icon_id": "9174893",
       "name": "选择月份左键头-01",
       "font_class": "xuanzeyuefenzuojiantou-",
@@ -497,9 +556,12 @@
       "unicode_decimal": 58919
     },
     {
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "9626871",
       "name": "购物",
       "font_class": "gouwu",
@@ -537,9 +599,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "10196608",
       "name": "home",
       "font_class": "home",
@@ -548,9 +613,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "10296829",
       "name": "购物 车",
       "font_class": "gouwuche3",
@@ -567,9 +635,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "10858432",
       "name": "消息",
       "font_class": "xiaoxi1",
@@ -578,9 +649,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "11027624",
       "name": "商务合作",
       "font_class": "shangwuhezuo",
@@ -618,9 +692,12 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "11376099",
       "name": "home",
       "font_class": "home1",
@@ -629,9 +706,12 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
 =======
 >>>>>>> osior
+=======
+>>>>>>> feifei
       "icon_id": "11380701",
       "name": "icon_网易严选",
       "font_class": "icon_wangyiyanxuan",

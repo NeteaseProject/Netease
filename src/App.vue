@@ -1,14 +1,22 @@
 <!--
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @Author: 陈晶华
  * @Date: 2019-11-26 09:28:31
  * @LastEditors: 陈晶华
  * @LastEditTime: 2019-11-30 15:24:49
+=======
+ * @Author: 菲菲呀
+ * @Date: 2019-11-26 09:31:07
+ * @LastEditors: 菲菲呀
+ * @LastEditTime: 2019-12-04 14:56:35
+>>>>>>> feifei
  * @Description: 
  -->
 <template>
   <div id="app">
+<<<<<<< HEAD
     <router-view/>
   </div>
 </template>
@@ -41,10 +49,30 @@
 <script>
 export default {
   name: 'App'
+=======
+    <transition name="component-fade" mode="in-out">
+      <router-view/>
+    </transition>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App',
+  data(){
+    return {
+
+    }
+  },
+  components:{
+    
+  }
+>>>>>>> feifei
 }
 </script>
 
 <style>
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -55,6 +83,8 @@ export default {
   margin-top: 60px;
 } */
 <<<<<<< HEAD
+=======
+>>>>>>> feifei
 body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
 	margin:0;
 	padding:0;
@@ -62,6 +92,7 @@ body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
 a{
 	text-decoration: none;
 }
+<<<<<<< HEAD
 html,body{
 	height:100%;
 }
@@ -101,5 +132,23 @@ img{
 a{
   text-decoration: none;
 >>>>>>> osior
+=======
+/* html,body{
+	height:100%;
+} */
+html{
+  font-size: 26.67vw;
+}
+body{
+  background:rgb(244,244,244);
+}
+.component-fade-enter-active, .component-fade-leave-active {
+    /* transition: opacity .3s ease; */
+    transition: all .3s ease; 
+}
+.component-fade-enter, .component-fade-leave-to {
+    /* opacity: 0; */
+    transform:translateX(-100%);
+>>>>>>> feifei
 }
 </style>
