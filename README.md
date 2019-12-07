@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # wangyi_prj
 =======
 # wangyiyanxuan
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
+=======
+# project_one
+>>>>>>> osior
 
 > A Vue.js project
 

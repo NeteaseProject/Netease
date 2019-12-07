@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author: osier
+ * @Date: 2019-11-26 10:49:18
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-07 10:40:48
+ * @Description: ..
+ */
+>>>>>>> osior
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -10,7 +20,19 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+<<<<<<< HEAD
     proxyTable: {},
+=======
+    proxyTable: {
+      '/api': {
+              target: 'http://localhost:3000', 
+              changeOrigin: true, 
+              pathRewrite: { 
+                '^/api': '' 
+              }
+        }
+    },
+>>>>>>> osior
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

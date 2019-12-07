@@ -1,5 +1,6 @@
 <!--
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @Author: 陈晶华
  * @Date: 2019-11-26 09:28:31
  * @LastEditors: 陈晶华
@@ -18,6 +19,13 @@
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \day23d:\wangyiyanxuan\src\App.vue
+=======
+ * @Author: renhui
+ * @Date: 2019-11-26 10:53:18
+ * @LastEditors: renhui
+ * @LastEditTime: 2019-11-26 16:56:56
+ * @Description: ..
+>>>>>>> osior
  -->
 <template>
   <div id="app">
@@ -26,7 +34,10 @@
   </div>
 </template>
 
+<<<<<<< HEAD
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
+=======
+>>>>>>> osior
 <script>
 export default {
   name: 'App'
@@ -34,6 +45,7 @@ export default {
 </script>
 
 <style>
+<<<<<<< HEAD
 /* #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -73,5 +85,21 @@ a{
   text-decoration: none;
   color:black;
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
+=======
+*{
+  margin: 0;
+  padding:0;
+}
+html,body{
+  font-size: 26.67vw;
+  font-family: '微软雅黑';
+}
+img{
+  margin:0px;
+  padding:0px;
+}
+a{
+  text-decoration: none;
+>>>>>>> osior
 }
 </style>

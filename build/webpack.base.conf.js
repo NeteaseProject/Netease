@@ -1,5 +1,6 @@
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @Author: 陈晶华
  * @Date: 2019-11-26 09:28:31
  * @LastEditors: 陈晶华
@@ -13,6 +14,13 @@
  * @Description: In User Settings Edit
  * @FilePath: \day23d:\wangyiyanxuan\build\webpack.base.conf.js
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
+=======
+ * @Author: renhui
+ * @Date: 2019-11-26 10:49:18
+ * @LastEditors: renhui
+ * @LastEditTime: 2019-11-26 16:26:48
+ * @Description: ..
+>>>>>>> osior
  */
 'use strict'
 const path = require('path')
@@ -74,12 +82,15 @@ module.exports = {
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       {                     
         test: /\.scss$/,
         loaders: ["style", "css", "sass"]                     
       },   
 =======
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
+=======
+>>>>>>> osior
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
@@ -88,12 +99,18 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       },
       {
         test: /\.scss$/, 
         loaders: ["style", "css", "sass"] 
 >>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
+=======
+      },
+      { test: /\.scss$/, 
+        loaders: ["style", "css", "sass"] 
+>>>>>>> osior
       }
     ]
   },
