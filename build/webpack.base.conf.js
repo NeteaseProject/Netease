@@ -1,9 +1,18 @@
 /*
+<<<<<<< HEAD
  * @Author: 陈晶华
  * @Date: 2019-11-26 09:28:31
  * @LastEditors: 陈晶华
  * @LastEditTime: 2019-11-26 16:37:44
  * @Description: ""
+=======
+ * @Author: your name
+ * @Date: 2019-11-19 20:37:42
+ * @LastEditTime: 2019-11-26 13:59:05
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \day23d:\wangyiyanxuan\build\webpack.base.conf.js
+>>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
  */
 'use strict'
 const path = require('path')
@@ -64,10 +73,13 @@ module.exports = {
           name: utils.assetsPath('media/[name].[hash:7].[ext]')
         }
       },
+<<<<<<< HEAD
       {                     
         test: /\.scss$/,
         loaders: ["style", "css", "sass"]                     
       },   
+=======
+>>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
@@ -75,6 +87,13 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+<<<<<<< HEAD
+=======
+      },
+      {
+        test: /\.scss$/, 
+        loaders: ["style", "css", "sass"] 
+>>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
       }
     ]
   },
