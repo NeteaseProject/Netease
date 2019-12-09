@@ -2,7 +2,7 @@
  * @Author: renhui
  * @Date: 2019-11-27 21:18:08
  * @LastEditors: osier
- * @LastEditTime: 2019-12-04 16:08:52
+ * @LastEditTime: 2019-12-09 21:38:19
  * @Description: ..
  -->
 <template>
@@ -25,7 +25,7 @@ export default {
      },
      methods:{
         Dback(){
-         this.$router.go(-1);
+         this.$router.go(-2);
         }
      }
     

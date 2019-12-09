@@ -2,7 +2,7 @@
  * @Author: renhui
  * @Date: 2019-11-26 17:12:38
  * @LastEditors: osier
- * @LastEditTime: 2019-12-09 11:12:26
+ * @LastEditTime: 2019-12-09 21:40:57
  * @Description: ..
  -->
 <template>
@@ -13,7 +13,7 @@
       </div>
       <p @click="seach()">搜索</p>
       <ul class="show" id="st" v-show="isShow" >
-        <li v-if="data1.length==0?true:false">抱歉，未搜索到您需要的物品</li>
+        <li v-if="data1.length==0?true:false"><router-link to="Index">抱歉，未搜索到您需要的物品</router-link></li>
         <!-- <li @click="hasshow()">{{input1}}</li> -->
         <li v-else v-for="(item,index) in data1" :key="index" @touchstart="hisname($event);addhistory()">
           <router-link to="./Detiles" class="hli">{{item.name}}</router-link>

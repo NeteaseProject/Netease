@@ -1,8 +1,8 @@
 <!--
  * @Author: 菲菲呀
  * @Date: 2019-11-26 09:31:07
- * @LastEditors: 菲菲呀
- * @LastEditTime: 2019-12-07 09:23:53
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 21:36:02
  * @Description: 
  -->
 <template>
@@ -22,9 +22,11 @@
       </div>
     </div>
     <div class="hello">
-      <div class="headertopBox">
-          <input class="action" type="text" placeholder="扫拖两用机器人">
-      </div>
+      <router-link to="Search">
+         <div class="headertopBox">
+            <input class="action" type="text" placeholder="扫拖两用机器人">
+        </div>
+      </router-link>
     </div>
   </div>
  <div class="hello_two" v-show="!ok">
