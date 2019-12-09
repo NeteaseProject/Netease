@@ -2,7 +2,7 @@
  * @Author: osier
  * @Date: 2019-12-05 15:02:42
  * @LastEditors: osier
- * @LastEditTime: 2019-12-05 17:54:34
+ * @LastEditTime: 2019-12-09 20:51:04
  * @Description: ..
  -->
 <template>
@@ -11,6 +11,9 @@
         <Shoppingcarlogincontent></Shoppingcarlogincontent>
         <Shoppingthird></Shoppingthird>
         <Shoppinglike></Shoppinglike>
+        <Shoppinglike></Shoppinglike>
+        <Ffooter class="index_footer"></Ffooter>
+
    </div>
    
  </template>
@@ -20,6 +23,7 @@
  import Shoppingcarlogincontent from '../components/Shoppingcarlogincontent'
  import Shoppingthird from '../components/Shoppingthird'
  import Shoppinglike from '../components/Shoppinglike'
+ import Ffooter from '../components/Ffooter'
 
  export default {
     name:'Shoppingcarlogin',
@@ -31,7 +35,7 @@
     components:{
         Shoppingheader,
         Shoppingcarlogincontent
-        ,Shoppingthird,Shoppinglike
+        ,Shoppingthird,Shoppinglike,Ffooter
     }
  }
  </script>
@@ -42,5 +46,11 @@
      height:100%;
      background-color: rgb(245, 245, 245);
  }
+ .index_footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
  </style>
 

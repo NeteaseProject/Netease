@@ -1,8 +1,8 @@
 <!--
  * @Author: 陈晶华
  * @Date: 2019-11-28 20:31:33
- * @LastEditors: 陈晶华
- * @LastEditTime: 2019-11-30 17:34:08
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 20:28:15
  * @Description: 
  -->
 
@@ -72,9 +72,9 @@
                    </router-link>
                </li>
                <li>
-                   <router-link to="#" class="lis">
+                   <router-link to="Personal" class="lis">
                        <span class="iconfont iconfont1 icon-shezhi"></span>
-                       <span class="clsname">拼团订单</span>
+                       <span class="clsname">个人设置</span>
                    </router-link>
                </li>
            </ul>

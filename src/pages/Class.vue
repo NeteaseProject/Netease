@@ -1,8 +1,8 @@
 <!--
  * @Author: 陈晶华
  * @Date: 2019-11-26 10:55:39
- * @LastEditors: 陈晶华
- * @LastEditTime: 2019-11-28 20:16:48
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 21:10:40
  * @Description: "..."
  -->
 
@@ -11,6 +11,7 @@
     <Csearch></Csearch>
     <Clist class="c_left"></Clist>
     <Cright class="c_right"></Cright>
+    <Ffooter class="index_footer"></Ffooter>
     <router-view/>
   </div>
 </template>
@@ -19,11 +20,13 @@
 import Csearch from '../components/Csearch'
 import Clist from '../components/Clist'
 import Cright from '../components/Cright'
+import Ffooter from '../components/Ffooter'
+
 
 export default {
   name: 'Class',
   components:{
-      Csearch,Clist,Cright
+      Csearch,Clist,Cright,Ffooter
   }
 }
 </script>
@@ -40,4 +43,10 @@ export default {
     float: right;
     margin-top: .5rem;
   }
+  .index_footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
 </style>

@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-26 10:13:21
- * @LastEditTime: 2019-12-05 17:08:01
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-12-09 20:08:02
+ * @LastEditors: osier
  * @Description: In User Settings Edit
  * @FilePath: \day23d:\wangyiyanxuan\src\pages\Login.vue
  -->
@@ -109,7 +109,7 @@ export default {
 							window.localStorage.setItem('id', id);
                             this.butmsg = "登录成功";
 							this.$router.push({
-								path: '/Personal'
+								path: '/Index'
 								
 							})
 						} else  {
@@ -124,9 +124,11 @@ export default {
             }
     }
 </script>
-<style scoped>
+<style scoped height="100%" >
 .L-box{
     width:100%;
+    background-color: #fff;
+    padding-bottom:2.1rem;
 }
 .L-top
 {

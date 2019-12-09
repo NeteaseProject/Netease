@@ -3,8 +3,8 @@
 <<<<<<< HEAD
  * @Author: 陈晶华
  * @Date: 2019-11-28 16:47:29
- * @LastEditors: 陈晶华
- * @LastEditTime: 2019-12-06 22:24:41
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 10:28:56
  * @Description: "..."
  */
 import Vue from 'vue'
@@ -18,7 +18,13 @@ export default new Vuex.Store({
 		id:"01001",
 		Goods:[],
 		Goodscopy:[],
-		GoodsTomain:[]
+		GoodsTomain:[],
+		footerCls:[//存储数据
+            true,
+            false,
+            false,
+            false
+        ]
 	},
 	mutations: {
 		changeType(state,typeId){
@@ -61,56 +67,8 @@ export default new Vuex.Store({
 		newTomin(state){
 			// console.log(state.Goodscopy)
 			state.Goods.goods=state.Goodscopy.goods.reverse()
-		}
-	}
-}); 
-=======
- * @Author: your name
- * @Date: 2019-12-06 17:20:47
- * @LastEditTime: 2019-12-07 09:10:37
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \day23d:\wangyiyanxuan\src\store\index.js
- */
-import Vue from 'vue';
-import vuex from "vuex";
-Vue.use(vuex)
-export default new vuex.Store({
-    state:{
-         
-    },
-    getter:{
-
-    },
-    mutations: {
-        
-    },
-    active:{}
-})
->>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
-=======
- * @Author: 菲菲呀
- * @Date: 2019-11-30 15:50:08
- * @LastEditors: 菲菲呀
- * @LastEditTime: 2019-12-06 19:14:53
- * @Description: 
- */
-import Vue from 'vue'
-import VueX from 'vueX'
-
-Vue.use(VueX)
-
-export default new VueX.Store({
-    state:{
-        footerCls:[//存储数据
-            true,
-            false,
-            false,
-            false
-        ]
-    },
-    mutations:{//跟踪状态
-        changefooter(state,index){
+		},
+		changefooter(state,index){
             // console.log(index)
             // console.log(state.footerCls)
             //合法性的判断
@@ -124,6 +82,5 @@ export default new VueX.Store({
             state.footerCls.splice(index,1,true); //用splice方法时vue才能检测到数据的变化，
             
         }
-    }
+	}
 })
->>>>>>> feifei

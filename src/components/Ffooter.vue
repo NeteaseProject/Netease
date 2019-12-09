@@ -1,8 +1,8 @@
 <!--
  * @Author: 菲菲呀
  * @Date: 2019-11-26 09:31:07
- * @LastEditors: 菲菲呀
- * @LastEditTime: 2019-12-05 20:39:09
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 21:12:17
  * @Description: 
  -->
 <template>
@@ -14,19 +14,19 @@
                 <span class="two_span">首页</span>
             </i> 
         </router-link>  
-        <router-link to="Page1" class="footer-icon">
+        <router-link to="Class" class="footer-icon">
         <i :class="{'red':$store.state.footerCls[1]}" @touchstart="changeCls(1)">
             <span class="iconfont icon-fenlei"></span>
             <span class="two_span">分类</span>
         </i>
         </router-link>
-        <router-link to="Page2" class="footer-icon">
+        <router-link to="Shoppingcarlogin" class="footer-icon">
         <i :class="{'red':$store.state.footerCls[2]}" @touchstart="changeCls(2)">
             <span class="iconfont icon-gouwuche4"></span>
             <span class="two_span">购物车</span>
         </i>
         </router-link>
-        <router-link to="Page3" class="footer-icon">
+        <router-link to="Person" class="footer-icon">
         <i :class="{'red':$store.state.footerCls[3]}" @touchstart="changeCls(3)">
             <span class="iconfont icon-gerenzhongxin"></span>
             <span class="two_span">个人</span>

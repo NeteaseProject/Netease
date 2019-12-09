@@ -2,7 +2,7 @@
  * @Author: renhui
  * @Date: 2019-11-26 17:12:38
  * @LastEditors: osier
- * @LastEditTime: 2019-12-07 10:48:00
+ * @LastEditTime: 2019-12-09 11:12:26
  * @Description: ..
  -->
 <template>
@@ -97,6 +97,11 @@ input::-moz-placeholder {
   top: 0.5rem;
   left: 0;
   font-size: .14rem;
+  .hli{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
   li{
     padding: 0 .1rem;
     line-height: .5rem;

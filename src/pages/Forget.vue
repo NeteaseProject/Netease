@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-26 11:51:26
- * @LastEditTime: 2019-12-03 10:59:57
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-12-09 20:06:53
+ * @LastEditors: osier
  * @Description: In User Settings Edit
  * @FilePath: \day23d:\wangyiyanxuan\src\pages\Forget.vue
  -->
@@ -134,6 +134,9 @@ export default {
 </script>
 
 <style scoped>
+    .szBox{
+        background-color: #fff;
+    }
 	.szheader {
         width:100%;
         height:0.45rem;
@@ -163,6 +166,7 @@ export default {
         display:flex;
         align-items: center;
         justify-content: center;
+        background-color: #fff;
     }
     .L-center1{
         width:1.5rem;
@@ -178,6 +182,7 @@ export default {
 	.box_input {
 		width:3.4rem;
         margin:0 auto;
+        
     }
 	input {
 		display:block;

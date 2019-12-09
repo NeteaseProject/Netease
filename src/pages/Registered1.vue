@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-26 14:04:01
- * @LastEditTime: 2019-12-05 16:04:48
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-12-09 19:56:03
+ * @LastEditors: osier
  * @Description: In User Settings Edit
  * @FilePath: \day23d:\wangyiyanxuan\src\pages\Registered.vue
  -->
@@ -105,12 +105,16 @@ export default {
 
 <style scoped>
 @import url(https://unpkg.com/swiper/css/swiper.css);
+body{
+  background:white;
+}
 .R-box {
   width: 100%;
+  background: white;
 }
 .R-top {
   width: 100%;
-  height: 1rem;
+  height: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +125,7 @@ export default {
 }
 .R-center {
   width: 100%;
-  height: 4rem;
+  height: 4.15rem;
 }
 .swiper-container {
   width: 100%;
@@ -134,6 +138,7 @@ export default {
 .R-bottom {
   width: 100%;
   height: 1.3rem;
+  padding-bottom:10px;
 }
 .R-a1 {
   display: block;
@@ -145,7 +150,8 @@ export default {
   font-weight: 600;
   display: flex;
   border-radius: 9px;
-  align-items: cneter;
+  align-items: center;
+  margin-bottom:0;
 }
 .R-a1 img {
   width: 0.25rem;
@@ -158,7 +164,7 @@ export default {
   height: 0.45rem;
   font-size: 0.14rem;
   color: white;
-  line-height: 0.4rem;
+  line-height: 0.45rem;
 }
 .R-b {
   width: 3.2rem;
@@ -167,6 +173,7 @@ export default {
   margin-top: 10%;
   display: flex;
   flex: 1;
+  /* margin-top:0.5rem; */
 }
 .R-c {
   width: 25%;
@@ -187,6 +194,7 @@ export default {
   width: 35%;
   height: 0.3rem;
 }
+
 .R-c span {
   width: 60%;
   height: 0.5rem;

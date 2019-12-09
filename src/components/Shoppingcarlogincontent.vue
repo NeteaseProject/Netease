@@ -2,7 +2,7 @@
  * @Author: osier
  * @Date: 2019-12-05 15:06:20
  * @LastEditors: osier
- * @LastEditTime: 2019-12-07 10:48:35
+ * @LastEditTime: 2019-12-09 20:53:05
  * @Description: ..
  -->
 <template>
@@ -229,7 +229,7 @@ export default {
     box-sizing: border-box;
     background-color: white;
     position: fixed;
-    bottom:0;
+    bottom:60px;
     left:0;
     font-size: .14rem;
     display: flex;

@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-19 21:16:11
- * @LastEditTime: 2019-11-30 17:42:45
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-12-09 21:04:04
+ * @LastEditors: osier
  * @Description: In User Settings Edit
  * @FilePath: \wangyiyanxuan\src\pages\Personal.vue
  -->
@@ -93,7 +93,7 @@ export default {
                 let name = ""
                 window.localStorage.setItem('name', name);
                 this.$router.push({
-                    path: '/Forget'
+                    path: '/Registered1'
                 })
             }else{
                 alert("请登录")
@@ -104,6 +104,7 @@ export default {
 }
 </script>
 <style scoped>
+
 .P-box{
     width:100%;
 }

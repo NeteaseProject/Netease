@@ -4,8 +4,8 @@
 <<<<<<< HEAD
  * @Author: 陈晶华
  * @Date: 2019-11-26 09:28:31
- * @LastEditors: 陈晶华
- * @LastEditTime: 2019-11-26 16:37:44
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 10:02:41
  * @Description: ""
 =======
  * @Author: your name
@@ -89,19 +89,10 @@ module.exports = {
           name: utils.assetsPath('media/[name].[hash:7].[ext]')
         }
       },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       {                     
         test: /\.scss$/,
         loaders: ["style", "css", "sass"]                     
       },   
-=======
->>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
-=======
->>>>>>> osior
-=======
->>>>>>> feifei
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
@@ -109,29 +100,18 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       },
       {
         test: /\.scss$/, 
         loaders: ["style", "css", "sass"] 
->>>>>>> b421aef870892733c2a40e148d86f4daa135ffd5
-=======
       },
       { test: /\.scss$/, 
         loaders: ["style", "css", "sass"] 
->>>>>>> osior
-      }
-=======
       },
         {
           test: /\.scss$/,
           loaders: ["style","css","sass"]
         }
-      
->>>>>>> feifei
     ]
   },
   node: {

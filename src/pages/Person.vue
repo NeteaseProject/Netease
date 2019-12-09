@@ -1,8 +1,8 @@
 <!--
  * @Author: 陈晶华
  * @Date: 2019-11-26 10:55:39
- * @LastEditors: 陈晶华
- * @LastEditTime: 2019-12-03 18:53:39
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 20:22:59
  * @Description: "..."
  -->
 
@@ -22,7 +22,7 @@
       <Myserver/>
       <MyCls :class="['fixed','write']"/>
       <Mclsgoods/>
-
+      <Ffooter class="index_footer"></Ffooter>
     <router-view/>
   </div>
 </template>
@@ -38,12 +38,13 @@ import Myserver from '../components/Myserver'
 import Mvipclub from '../components/Mvipclub'
 import MyCls from '../components/MyCls'
 import Mclsgoods from '../components/Mclsgoods'
+import Ffooter from '../components/Ffooter'
 
 
 export default {
   name: 'Preson',
   components:{
-      Myheader1,Myheader2,Mvip,MOrder,Mbanner,Mymoney,Myserver,Mvipclub,MyCls,Mclsgoods
+      Myheader1,Myheader2,Mvip,MOrder,Mbanner,Mymoney,Myserver,Mvipclub,MyCls,Mclsgoods,Ffooter
       
   },
   data(){
@@ -87,5 +88,11 @@ export default {
 }
 .write{
   background-color: rgb(253, 253, 253);
+}
+.index_footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
 }
 </style>

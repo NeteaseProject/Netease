@@ -1,23 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/*
- * @Author: osier
- * @Date: 2019-11-26 10:49:18
- * @LastEditors: osier
- * @LastEditTime: 2019-12-07 10:40:48
- * @Description: ..
- */
->>>>>>> osior
-=======
+
 /*
  * @Author: 菲菲呀
  * @Date: 2019-11-26 09:31:07
- * @LastEditors: 菲菲呀
- * @LastEditTime: 2019-12-06 21:21:17
+ * @LastEditors: osier
+ * @LastEditTime: 2019-12-09 10:01:26
  * @Description: 
  */
->>>>>>> feifei
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -30,25 +18,16 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-<<<<<<< HEAD
-<<<<<<< HEAD
-    proxyTable: {},
-=======
-    proxyTable: {
-      '/api': {
-              target: 'http://localhost:3000', 
-              changeOrigin: true, 
-              pathRewrite: { 
-                '^/api': '' 
-              }
-        }
-    },
->>>>>>> osior
+ 
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
-=======
+    autoOpenBrowser: false,
+    errorOverlay: true,
+    notifyOnErrors: true,
+    poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
+
     proxyTable: {},
       proxyTable: {
         '/api': { //要替换的地址
@@ -60,26 +39,7 @@ module.exports = {
           }
         }
       },
-    // Various Dev Server settings
-    host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8081, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
->>>>>>> feifei
-    autoOpenBrowser: false,
-    errorOverlay: true,
-    notifyOnErrors: true,
-    poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
-
-    
-    /**
-     * Source Maps
-     */
-
-    // https://webpack.js.org/configuration/devtool/#development
     devtool: 'cheap-module-eval-source-map',
-
-    // If you have problems debugging vue-files in devtools,
-    // set this to false - it *may* help
-    // https://vue-loader.vuejs.org/en/options.html#cachebusting
     cacheBusting: true,
 
     cssSourceMap: true
@@ -92,13 +52,11 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-<<<<<<< HEAD
     assetsPublicPath: '/',
 
-=======
+
     assetsPublicPath: './',
     
->>>>>>> feifei
     /**
      * Source Maps
      */
